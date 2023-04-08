@@ -54,7 +54,7 @@ async def main_teletips():
                 xxx_teletips += f"\n\n<b>📶 Last Checked: \n<b>📅 Date & Time :</b> {last_update}\n<b>🌎 Time Zone :</b> {TIME_ZONE}\n\n<b><i>🤖 Bot Status Are Updated Every 45 Minutes Automatically ✅</i></b>"
                 await app.edit_message_text(int(CHANNEL_OR_GROUP_ID), MESSAGE_ID, xxx_teletips)
                 print(f"Last checked on: {last_update}")                
-                await asyncio.sleep(2700)
+                await asyncio.sleep(2710)
                         
 app.run(main_teletips())
 
